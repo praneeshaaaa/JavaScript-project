@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Techno Bazzar</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <header>
+    <h1 class="logo">Techno Bazzar</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Cart (<span id="cart-count">0</span>)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="overlay">
+      <h2>Discover the Latest Deals</h2>
+      <p> सस्तो रा भरपर्दो. टेक्नो बजार, shop now!</p>
+    </div>
+  </section>
+
+  <main class="products">
+    <div class="product-card">
+      <img src="https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Headphones">
+      <h3>Stylish Headphones</h3>
+      <p>Rs 4999</p>
+      <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    
+
+    <div class="product-card">
+    <img src="https://images.pexels.com/photos/2272759/pexels-photo-2272759.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Mouse">
+      <h3>Wireless Mouse</h3>
+      <p>Rs 1899</p>
+      <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.pexels.com/photos/1334602/pexels-photo-1334602.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Smartwatch">
+      <h3>Smart Watch</h3>
+      <p>RS 6599</p>
+      <button onclick="addToCart()">Add to Cart</button>
+    </div>
+  </main>
+
+   
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <p>Have questions or suggestions? We'd love to hear from you!</p>
+    <p>Email: <a href="abc@gmail.com">ABC@gmail.com</a></p>
+
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ShopSmart. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
